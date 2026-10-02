@@ -1,4 +1,4 @@
-# Landing page — Pedro H Rodrigues
+# Landing page — Pedro R Gomes
 
 Site estático (tráfego, IA e automação + portfólio de identidade visual e sites).
 100% autossuficiente: fontes, libs e mídias vêm do próprio repositório.
