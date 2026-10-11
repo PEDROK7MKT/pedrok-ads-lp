@@ -6,4 +6,22 @@
     <image:image><image:loc>https://www.pk7.com.br/assets/img/pedro-r-gomes-pk7.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.pk7.com.br/assets/og-pedro-r-gomes-pk7.jpg</image:loc></image:image>
   </url>
+  <url>
+    <loc>https://www.pk7.com.br/pedro-r-gomes/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <image:image><image:loc>https://www.pk7.com.br/assets/img/pedro-r-gomes-pk7.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pk7.com.br/assets/img/placa-appmax-100-mil.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.pk7.com.br/servicos/</loc>
+    <lastmod>2026-10-11</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pk7.com.br/cases/</loc>
+    <lastmod>2026-10-11</lastmod>
+  </url>
+  <url>
+    <loc>https://www.pk7.com.br/atendimento/</loc>
+    <lastmod>2026-10-11</lastmod>
+  </url>
 </urlset>
