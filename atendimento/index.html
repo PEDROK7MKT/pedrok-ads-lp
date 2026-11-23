@@ -73,16 +73,40 @@ footer a{display:block;text-decoration:none;color:var(--muted);font-size:15px;ma
 footer .t{font:700 13px "Space Grotesk";letter-spacing:.1em;text-transform:uppercase;margin-bottom:8px}
 @media (max-width:860px){.g3,.g4{grid-template-columns:1fr 1fr}.about,.proof{grid-template-columns:1fr}header.top nav{display:none}footer .cols{grid-template-columns:1fr}}
 @media (max-width:560px){.g2,.g3,.g4{grid-template-columns:1fr}.cta{padding:30px}table.cmp{font-size:14px}}
+
+footer .cols{grid-template-columns:2fr 1fr 1.2fr 1.4fr}
+@media (max-width:860px){footer .cols{grid-template-columns:1fr}}
+.prose{max-width:780px}
+.prose h2{margin:44px 0 14px}
+.prose h3{margin:26px 0 8px;text-transform:none;letter-spacing:-.01em;font-size:22px}
+.prose p,.prose li{font-size:18px;line-height:1.7;color:#3b4060}
+.prose p+p{margin-top:14px}
+.prose ul,.prose ol{padding-left:24px;margin-top:12px;display:grid;gap:8px}
+.prose a,.card a,.lead a{color:var(--blue);text-decoration:underline;text-underline-offset:3px}
+.prose strong{color:var(--navy)}
+.box{background:#fff;border:1px solid var(--line);border-radius:20px;padding:22px 26px;margin-top:22px}
+.box.lime{background:#F3FBD6;border-color:#DCEB9C}
+.faq{display:grid;gap:12px;max-width:860px}
+.faq details{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px 22px}
+.faq summary{font-weight:700;font-size:18px;cursor:pointer;color:var(--navy);list-style-position:outside}
+.faq details p{margin-top:10px;font-size:17px}
+.meta{font-size:15px;color:var(--muted);margin-top:14px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.chips span{background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:15px;font-weight:600;color:var(--navy)}
+.posts{display:grid;gap:18px}
+.posts a.card{text-decoration:none}
+.posts a.card h3{text-transform:none;font-size:24px;letter-spacing:-.01em}
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "@id": "https://www.pk7.com.br/atendimento/#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Início", "item": "https://www.pk7.com.br/"}, {"@type": "ListItem", "position": 2, "name": "Onde atendo", "item": "https://www.pk7.com.br/atendimento/"}]}, {"@type": "WebPage", "@id": "https://www.pk7.com.br/atendimento/#pagina", "url": "https://www.pk7.com.br/atendimento/", "name": "Onde a PK7 atende", "description": "Onde a PK7 (Pedro R Gomes) atende: presencial em Goiânia e região e no oeste e centro da Bahia (Luís Eduardo Magalhães, Barreiras, Itaberaba); online no Brasil, América do Norte e Europa.", "inLanguage": "pt-BR", "isPartOf": {"@id": "https://www.pk7.com.br/#site"}, "about": {"@id": "https://www.pk7.com.br/#org"}, "breadcrumb": {"@id": "https://www.pk7.com.br/atendimento/#breadcrumb"}, "dateModified": "2026-10-11T17:00:00-03:00", "mainEntity": {"@type": "ProfessionalService", "@id": "https://www.pk7.com.br/#org", "areaServed": [{"@type": "City", "name": "Goiânia"}, {"@type": "City", "name": "Luís Eduardo Magalhães"}, {"@type": "City", "name": "Barreiras"}, {"@type": "City", "name": "Itaberaba"}, {"@type": "Country", "name": "Brasil"}, {"@type": "Place", "name": "América do Norte"}, {"@type": "Place", "name": "Europa"}]}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "@id": "https://www.pk7.com.br/atendimento/#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Início", "item": "https://www.pk7.com.br/"}, {"@type": "ListItem", "position": 2, "name": "Onde atendo", "item": "https://www.pk7.com.br/atendimento/"}]}, {"@type": "WebPage", "@id": "https://www.pk7.com.br/atendimento/#pagina", "url": "https://www.pk7.com.br/atendimento/", "name": "Onde a PK7 atende", "description": "Onde a PK7 (Pedro R Gomes) atende: presencial em Goiânia e região e no oeste e centro da Bahia (Luís Eduardo Magalhães, Barreiras, Itaberaba); online no Brasil, América do Norte e Europa.", "inLanguage": "pt-BR", "isPartOf": {"@id": "https://www.pk7.com.br/#site"}, "about": {"@id": "https://www.pk7.com.br/#org"}, "breadcrumb": {"@id": "https://www.pk7.com.br/atendimento/#breadcrumb"}, "dateModified": "2026-11-23T12:00:00-03:00", "mainEntity": {"@type": "ProfessionalService", "@id": "https://www.pk7.com.br/#org", "areaServed": [{"@type": "City", "name": "Goiânia"}, {"@type": "City", "name": "Luís Eduardo Magalhães"}, {"@type": "City", "name": "Barreiras"}, {"@type": "City", "name": "Itaberaba"}, {"@type": "Country", "name": "Brasil"}, {"@type": "Place", "name": "América do Norte"}, {"@type": "Place", "name": "Europa"}]}}]}</script>
+<script src="/assets/js/pk7.js" defer></script>
 </head><body>
-<header class="top"><div class="wrap"><a class="brand" href="/">PEDRO R GOMES | PK7</a><nav aria-label="Páginas"><a href="/pedro-r-gomes/">Pedro R Gomes</a><a href="/servicos/">Serviços</a><a href="/cases/">Cases</a><a href="/atendimento/" aria-current="page">Onde atendo</a></nav><a class="btn" href="https://wa.me/5562993684568?text=Ol%C3%A1%2C%20Pedro%21%20Vim%20pelo%20site%20e%20quero%20agendar%20meu%20diagn%C3%B3stico%20gratuito." rel="noopener">Falar no WhatsApp</a></div></header>
+<header class="top"><div class="wrap"><a class="brand" href="/">PEDRO R GOMES | PK7</a><nav aria-label="Páginas"><a href="/pedro-r-gomes/">Pedro R Gomes</a><a href="/servicos/">Serviços</a><a href="/trafego-pago-goiania/">Tráfego em Goiânia</a><a href="/cases/">Cases</a><a href="/blog/">Blog</a><a href="/atendimento/" aria-current="page">Onde atendo</a></nav><a class="btn" href="https://wa.me/5562993684568?text=Ol%C3%A1%2C%20Pedro%21%20Vim%20pelo%20site%20e%20quero%20agendar%20meu%20diagn%C3%B3stico%20gratuito." rel="noopener">Falar no WhatsApp</a></div></header>
 <main>
 <div class="wrap crumbs"><a href="/">Início</a> › Onde atendo</div>
 <div class="wrap hero"><h1>Onde atendo</h1><p class="lead">A maior parte do trabalho é remota, com reuniões por vídeo e WhatsApp. Também atendo presencialmente nas regiões abaixo.</p></div>
 <section><div class="wrap"><div class="grid g2">
-<div class="card"><span class="kicker">Presencial</span><h3>Goiânia e região (GO)</h3><p>Reuniões presenciais com o Pedro para diagnóstico, kick-off e acompanhamento.</p></div>
-<div class="card"><span class="kicker">Presencial</span><h3>Bahia: Luís Eduardo Magalhães, Barreiras e Itaberaba</h3><p>Atendimento presencial com parceiros locais e visitas do Pedro aos clientes da região.</p></div>
+<div class="card"><span class="kicker">Presencial</span><h3><a href="/trafego-pago-goiania/">Goiânia e região (GO)</a></h3><p>Reuniões presenciais com o Pedro para diagnóstico, kick-off e acompanhamento.</p></div>
+<div class="card"><span class="kicker">Presencial</span><h3>Bahia: <a href="/trafego-pago-luis-eduardo-magalhaes/">Luís Eduardo Magalhães</a>, <a href="/trafego-pago-barreiras/">Barreiras</a> e Itaberaba</h3><p>Atendimento presencial com parceiros locais e visitas do Pedro aos clientes da região.</p></div>
 <div class="card"><span class="kicker">Online</span><h3>Todo o Brasil</h3><p>Projetos e operação mensal 100% remotos. WhatsApp Brasil: +55 62 99368-4568.</p></div>
 <div class="card"><span class="kicker">Online</span><h3>América do Norte e Europa</h3><p>Clientes em 3 continentes. Atendimento em português e inglês. WhatsApp Europa: +31 6 85412747.</p></div>
 </div></div></section>
@@ -90,8 +114,9 @@ footer .t{font:700 13px "Space Grotesk";letter-spacing:.1em;text-transform:upper
 <section><div class="wrap"><div class="cta"><div><h2>Vamos ligar a sua máquina de vendas?</h2><p>Diagnóstico gratuito de 30 minutos, direto comigo. Sem pitch, sem slide.</p></div><a class="btn" href="https://wa.me/5562993684568?text=Ol%C3%A1%2C%20Pedro%21%20Vim%20pelo%20site%20e%20quero%20agendar%20meu%20diagn%C3%B3stico%20gratuito." rel="noopener">Agendar diagnóstico</a></div></div></section>
 </main>
 <footer><div class="wrap cols">
-<div><div class="t">PK7 · Pedro R Gomes (PedroK Ads)</div><p>Marketing de performance, IA e automação de vendas. Clientes em 3 continentes: América do Sul, América do Norte e Europa.</p></div>
-<div><div class="t">Navegue</div><a href="/">Início</a><a href="/pedro-r-gomes/">Pedro R Gomes</a><a href="/servicos/">Serviços</a><a href="/cases/">Cases</a><a href="/atendimento/">Onde atendo</a></div>
+<div><div class="t">PK7 · Pedro R Gomes (PedroK Ads)</div><p>Tráfego pago, IA no WhatsApp e automação de vendas. Presencial em Goiânia e região e no oeste e centro da Bahia; online no Brasil e em 3 continentes.</p></div>
+<div><div class="t">Navegue</div><a href="/">Início</a><a href="/pedro-r-gomes/">Pedro R Gomes</a><a href="/servicos/">Serviços</a><a href="/trafego-pago-goiania/">Tráfego em Goiânia</a><a href="/cases/">Cases</a><a href="/blog/">Blog</a><a href="/atendimento/">Onde atendo</a></div>
+<div><div class="t">Atendimento</div><a href="/trafego-pago-goiania/">Tráfego pago em Goiânia</a><a href="/gestor-de-trafego-goiania/">Gestor de tráfego em Goiânia</a><a href="/ia-whatsapp-goiania/">IA no WhatsApp em Goiânia</a><a href="/agencia-de-marketing-digital-goiania/">Agência de marketing em Goiânia</a><a href="/trafego-pago-barreiras/">Tráfego pago em Barreiras</a><a href="/trafego-pago-luis-eduardo-magalhaes/">Tráfego pago em LEM</a></div>
 <div><div class="t">Contato</div><a href="https://wa.me/5562993684568?text=Ol%C3%A1%2C%20Pedro%21%20Vim%20pelo%20site%20e%20quero%20agendar%20meu%20diagn%C3%B3stico%20gratuito." rel="noopener">WhatsApp Brasil · +55 62 99368-4568</a><a href="https://wa.me/31685412747?text=Ol%C3%A1%2C%20Pedro%21%20Vim%20pelo%20site%20e%20quero%20agendar%20meu%20diagn%C3%B3stico%20gratuito." rel="noopener">WhatsApp Europa · +31 6 85412747</a><a href="mailto:pedrokadsmktt@gmail.com">pedrokadsmktt@gmail.com</a><a href="https://www.instagram.com/pedrok.ads" rel="me noopener">Instagram @pedrok.ads</a><a href="https://www.linkedin.com/in/pedrorgomes-pk7/" rel="me noopener">LinkedIn</a></div>
 </div></footer>
 </body></html>
