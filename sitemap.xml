@@ -2,26 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.pk7.com.br/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <image:image><image:loc>https://www.pk7.com.br/assets/img/pedro-r-gomes-pk7.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.pk7.com.br/assets/og-pedro-r-gomes-pk7.jpg</image:loc></image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.pk7.com.br/pedro-r-gomes/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <image:image><image:loc>https://www.pk7.com.br/assets/img/pedro-r-gomes-pk7.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.pk7.com.br/assets/img/placa-appmax-100-mil.webp</image:loc></image:image>
   </url>
-  <url>
+<url>
     <loc>https://www.pk7.com.br/servicos/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-11-23</lastmod>
   </url>
-  <url>
+<url><loc>https://www.pk7.com.br/trafego-pago-goiania/</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>https://www.pk7.com.br/gestor-de-trafego-goiania/</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>https://www.pk7.com.br/ia-whatsapp-goiania/</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>https://www.pk7.com.br/agencia-de-marketing-digital-goiania/</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>https://www.pk7.com.br/trafego-pago-barreiras/</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>https://www.pk7.com.br/trafego-pago-luis-eduardo-magalhaes/</loc><lastmod>2026-11-23</lastmod></url>
+<url>
     <loc>https://www.pk7.com.br/cases/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-11-23</lastmod>
   </url>
-  <url>
+<url>
     <loc>https://www.pk7.com.br/atendimento/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-11-23</lastmod>
   </url>
+<url><loc>https://www.pk7.com.br/blog/</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>https://www.pk7.com.br/blog/quanto-custa-trafego-pago-goiania/</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>https://www.pk7.com.br/blog/gestor-de-trafego-ou-agencia/</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>https://www.pk7.com.br/blog/por-que-o-trafego-pago-nao-vende/</loc><lastmod>2026-11-23</lastmod></url>
 </urlset>
